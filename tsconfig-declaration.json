@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"],
+      "types": ["../types"]
+    },
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "declarationDir": "lib"
+  },
+  "exclude": [
+    "tmp"
+  ]
+}

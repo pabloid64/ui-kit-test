@@ -7,8 +7,8 @@
     </div>
 </template>
 
-<script>
-import UiBtn from './UiBtn.vue'
+<script lang="ts">
+import UiBtn from '../UiBtn/UiBtn.vue'
 export default {
     name: 'UiBadge',
     components: {
