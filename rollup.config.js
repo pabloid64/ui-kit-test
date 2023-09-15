@@ -10,6 +10,7 @@ export default {
     file: 'dist/ui-kit.esm.js', // Путь к сгенерированному ESM бандлу
     format: 'esm', // Формат ESM
   },
+  external: ['vue'],
   plugins: [
     terser(),
     vue(), // Плагин для обработки файлов Vue
